@@ -13,6 +13,7 @@
 define ('DIAS_SEMANA',['Lunes','Martes','Miercoles','Jueves',
 'Viernes','Sabado','Domingo']);
 
+echo "ESTE ES MI NUEVO PROYECTO SUBIDO A GITHUB";
 function mostrarNombreDias() {
 	foreach (DIAS_SEMANA as $diaSem) {
 		echo $diaSem;
